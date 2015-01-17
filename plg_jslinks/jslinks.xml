@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - jslinks</name>
+	<author>Mycomponent.ru</author>
+	<creationDate>2012-01-29</creationDate>
+	<copyright>No</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>extensions@mycomponent.ru</authorEmail>
+	<authorUrl>mycomponent.ru</authorUrl>
+	<version>1.5</version>
+	<description>Замена внешних ссылок на JavaScript. Если не указан target, вставляется "_blank". Вставьте {nohref=on} в материал, либо перечислите нужные категории через запятую, либо оставьте пустым (0) - будет работать во всех категориях</description>
+	<params>
+		<param name="categories" type="text" default="0" label="Category IDs" description="Категории" />
+	</params>
+	<files>
+		<filename plugin="jslinks">jslinks.php</filename>
+	</files>
+</install>
